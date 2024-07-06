@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Until - Luis Schuster</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="/css/timer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Time Until Calculator</h1>
+
+  <h2>A simple JavaScript program<br> that calculates the time until a specified date<br> and displays the result as a countdown timer.</h2>
+
+  <div id="input-container">
+    <input type="datetime-local" id="target-date" />
+    <button id="start-button">Calculate Time</button>
+  </div>
+
+  <div id="timer-container">
+
+    <div class="numbers">
+      <p id="days"></p>
+      <p>Days</p>
+    </div>
+
+    <div class="numbers">
+      <p id="hours"></p>
+      <p>Hours</p>
+    </div>
+
+    <div class="numbers">
+      <p id="minutes"></p>
+      <p>Minutes</p>
+    </div>
+
+    <div class="numbers">
+      <p id="seconds"></p>
+      <p>Seconds</p>
+    </div>
+
+  </div>
+
+  <script src="/js/timer.js"></script>
+
+</body>
+</html>
